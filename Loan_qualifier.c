@@ -4,6 +4,7 @@ Author:Kinuthia Abraham Ngugi.
 REG NO:CT101/G/22378/24.
 Date:29/9/2024.
 */
+
 #include <stdio.h>
 
 int main() {
