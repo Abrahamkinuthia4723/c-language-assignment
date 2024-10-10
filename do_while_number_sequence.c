@@ -1,3 +1,10 @@
+/*
+Program to print numbers in a range and calculate their sum using a do-while loop.
+Author: Kinuthia Abraham Ngugi.
+REG NO: CT101/G/22378/24.
+Date: 5/10/2024.
+*/
+
 #include <stdio.h>
 
 int main() {

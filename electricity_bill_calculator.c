@@ -1,14 +1,23 @@
+/*
+Program to calculate the electricity bill based on units consumed, with applicable surcharges and a minimum bill.
+Author: Kinuthia Abraham Ngugi.
+REG NO: CT101/G/22378/24.
+Date: 9/10/2024.
+*/
+
 #include <stdio.h>
 
 int main() {
     int customerID, unitsConsumed;
-    char customerName[50];
+    char customerName[30];
     float chargesPerUnit, totalBill;
 
     printf("Enter Customer ID: ");
     scanf("%d", &customerID);
+
     printf("Enter Customer Name: ");
-    scanf("%s", customerName);
+    scanf(" %[^\n]%*c", customerName);
+
     printf("Enter Units Consumed: ");
     scanf("%d", &unitsConsumed);
 
